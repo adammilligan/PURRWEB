@@ -370,4 +370,242 @@ html, body {
     color: #FFAA4C;
 }
 
+.wrapper_indicators {
+    height: 222px;
+    background-color: #954CED;
+}
+
+.indicator_marks {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.indicators_mark {
+    margin-right: 100px;
+}
+
+.indicators_mark h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+}
+
+.indicator_marks p {
+    margin-top: 16px;
+    width: 220px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.wrapper_why {
+    height: 1192px;
+}
+
+.why_text {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    position: relative;
+}
+
+.why_header {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+}
+
+.why_description {
+    width: 750px;
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 2;
+}
+
+.why_text_vector {
+    width: 446px;
+    height: 37px;
+    margin-top: -38px;
+    transform: rotate(-1.631deg);
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #A64CED;
+    z-index: 1;
+}
+
+.why_blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px 70px 0;
+}
+
+.why_block {
+    height: 362px;
+    border-radius: 30px;
+    background: #F5F5F5;
+}
+
+.why_block_customers, .why_block_seasoned {
+    width: 733px;
+}
+
+.why_block_harness, .why_block_supercharge {
+    width: 547px;
+}
+
+.why_block_customers, .why_block_supercharge {
+    margin-right: 20px;
+}
+
+.why_block_seasoned, .why_block_supercharge {
+    margin-top: 20px;
+}
+
+
+
+
+.contacts_wrapper {
+    height: 1017px;
+    background-color: #F5F5F5;
+}
+
+.contacts_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 60px;
+    border-radius: 60px;
+    border: 1px solid #CFCFCF;
+    padding-bottom: 60px;
+}
+
+.contacts_header_text {
+    margin-top: 60px;
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 40px;
+}
+
+.contacts_main {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_tagline {
+    width: 844px;
+}
+
+.contacts_social_network {
+    width: 558px;
+    display: flex;
+    padding-top: 45px;
+    padding-left: 45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tagline_header {
+    color: #000;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+}
+
+.tagline_description {
+    width: 542px;
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.contacts_social_network_item {
+    width: 90px;
+    height: 90px;
+    margin-right: 40px;
+}
+
+.contacts_social_network div:nth-child(1),
+.contacts_social_network div:nth-child(3),
+.contacts_social_network div:nth-child(6),
+.contacts_social_network div:nth-child(8) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #954CED;
+    border-radius: 50%;
+}
+
+.contacts_partners {
+    display: flex;
+    height: 60px;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts_partners_image {
+    margin-right: 90px;
+}
+
+.contacts_partners_image:first-child {
+    margin-left: 60px;
+}
+
+.footer_wrapper {
+    height: 188px;
+}
+
+.footer_content {
+    margin: 40px 60px 20px 60px;
+}
+
+.footer_content hr {
+    margin-top: 30px;
+}
+
+
+.footer_copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: #B9B9B9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.footer_links a {
+    color: #B9B9B9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    text-decoration-line: underline;
+}
+
+
 
