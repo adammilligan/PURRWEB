@@ -275,7 +275,7 @@ html, body {
     height: 623px;
     z-index: 20;
     top: 106px;
-    left: 566px;
+    left: calc(50% - 154px);
 }
 
 .running_text {
