@@ -32,17 +32,23 @@ html, body {
     font-family: "Outfit serif", sans-serif;
 }
 
+body {
+    background-color: #181818;
+}
+
 .wrapper {
-    width: 100%;
+    width: 1440px;
     margin: auto;
     height: 700px;
-    background-color: #181818;
     overflow: hidden;
 }
 
-.nav_items {
+.nav_wrapper {
     height: 38px;
     display: flex;
+}
+
+.nav_items {
     background-color: #FFAA4C;
 }
 
@@ -75,7 +81,7 @@ html, body {
     align-items: center;
 }
 
-.header_logo {
+.logo {
     display: flex;
     align-items: center;
     height: 47px;
@@ -177,7 +183,7 @@ html, body {
 .about_content {
     display: flex;
     margin-left: 60px;
-    margin-right: 160px;
+    margin-right: 60px;
     justify-content: space-between;
 }
 
@@ -370,9 +376,12 @@ html, body {
     color: #FFAA4C;
 }
 
+.indicators {
+    background-color: #954CED;
+}
+
 .wrapper_indicators {
     height: 222px;
-    background-color: #954CED;
 }
 
 .indicator_marks {
@@ -454,9 +463,12 @@ html, body {
 }
 
 .why_block {
+    display: flex;
     height: 362px;
     border-radius: 30px;
     background: #F5F5F5;
+    overflow: hidden;
+    position: relative;
 }
 
 .why_block_customers, .why_block_seasoned {
@@ -476,11 +488,103 @@ html, body {
 }
 
 
+.customers_picture {
+    width: 636px;
+}
 
+.customer_text{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.harness_text {
+    margin: 40px 75px 0 40px;
+}
+
+.supercharge_text {
+    margin: 40px 67px 0 40px;
+}
+
+.seasoned_text {
+    margin: 40px 285px 0 40px;
+}
+
+.why_block_header {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.why_block_description  {
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.customers_picture_img {
+    position: absolute;
+    margin-top: 37px;
+    padding: revert;
+    z-index: 2;
+}
+
+.customers_picture_vector {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.harness_picture, .seasoned_picture,
+.supercharge_picture {
+    position: relative;
+}
+
+.harness_violet {
+    position: absolute;
+    top: 70px;
+    left: 459px;
+}
+
+.harness_orange {
+    position: absolute;
+    bottom: 0;
+    left: 420px;
+}
+
+.harness_green {
+    position: absolute;
+    bottom: 0;
+    left: 72px;
+}
+
+
+.seasoned_image, .supercharge_image {
+    position: absolute;
+}
+
+.seasoned_image  {
+    bottom: 0;
+    left: 500px;
+}
+
+.supercharge_image {
+    bottom: 0;
+    right: 0;
+}
+
+
+.contacts {
+    background-color: #F5F5F5;
+}
 
 .contacts_wrapper {
     height: 1017px;
-    background-color: #F5F5F5;
 }
 
 .contacts_header {
@@ -559,17 +663,13 @@ html, body {
 .contacts_partners {
     display: flex;
     height: 60px;
-    margin-top: 100px;
+    margin: 100px 60px 0 60px;
     flex-direction: row;
     justify-content: center;
 }
 
 .contacts_partners_image {
     margin-right: 90px;
-}
-
-.contacts_partners_image:first-child {
-    margin-left: 60px;
 }
 
 .footer_wrapper {
@@ -588,6 +688,7 @@ html, body {
 .footer_copyright {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .copyright {
@@ -605,6 +706,44 @@ html, body {
     font-weight: 300;
     line-height: 140%;
     text-decoration-line: underline;
+    margin-right: 20px;
+}
+
+.footer_links a:last-child {
+    margin-right: 0;
+}
+
+.footer_socials {
+    display: flex;
+    align-items: center;
+}
+
+.footer_logo {
+    margin-right: 126px;
+}
+
+.footer_nav_items {
+    display: flex;
+    margin-right: 126px;
+}
+
+.footer_nav_item {
+    margin-right: 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.footer_nav_item:last-child {
+    margin-right: 0;
+}
+
+.socials_item {
+    margin-left: 40px;
+    margin-right: -20px;
 }
 
 
