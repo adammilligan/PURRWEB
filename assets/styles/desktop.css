@@ -29,7 +29,7 @@
 }
 
 html, body {
-    font-family: "Outfit serif", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -70,6 +70,7 @@ body {
     border-radius: 20px 20px 0 0;
     background: #181818;
     color: #FFF;
+    padding-right: 40px;
 }
 
 .header_links {
@@ -85,25 +86,27 @@ body {
     display: flex;
     align-items: center;
     height: 47px;
+    margin-left: 8px;
+    margin-top: 1px;
 }
 
 .header_logo_text {
     color: #FFF;
     text-align: center;
-    font-size: 37px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: 17px;
     text-transform: lowercase;
+    margin-left: 6px;
 }
 
 .header_contact {
     display: flex;
     padding: 16px 30px;
-    width: 140px;
+    width: 122px;
     justify-content: center;
     align-items: center;
-    gap: 14px;
     border-radius: 16px;
     background: #954CED;
     color: #FFF;
@@ -112,6 +115,7 @@ body {
     font-weight: 600;
     line-height: normal;
 }
+
 .header_description {
     display: flex;
     margin-left: 110px;
@@ -119,20 +123,21 @@ body {
 
 .header_description_text h1 {
     display: flex;
-    width: 671px;
-    margin-top: 82px;
+    width: 707px;
+    margin-top: 81px;
     flex-direction: column;
     color: #FFF;
-    font-size: 96px;
+    font-size: 95px;
     font-style: normal;
     font-weight: 700;
-    line-height: 106%;
+    line-height: 108%;
+    letter-spacing: 1px;
 }
 
 .header_description_text p {
     display: flex;
-    margin-top: 20px;
-    width: 671px;
+    margin-top: 18px;
+    width: 556px;
     flex-direction: column;
     color: #FFF;
     font-size: 20px;
@@ -143,8 +148,8 @@ body {
 
 .header_description_contact {
     display: flex;
-    padding: 16px 30px;
-    margin-top: 40px;
+    padding: 18px 30px;
+    margin-top: 39px;
 }
 
 .header_description_image {
@@ -153,16 +158,16 @@ body {
 
 .header_description_vector {
     position: absolute;
-    left: 73px;
+    left: 38px;
     top: 93px;
 }
 
 .header_description_img {
     position: absolute;
     width: 489px;
-    height: 537px;
-    top: 54px;
-    left: 92px;
+    height: 526px;
+    top: 65px;
+    left: 58px;
 }
 
 .wrapper_about {
@@ -171,19 +176,21 @@ body {
 }
 
 .about_header {
-    margin-top: 100px;
-    margin-left: 60px;
+    margin-top: 66px;
+    margin-left: 61px;
     color: #FFF;
-    font-size: 96px;
+    font-size: 94px;
     font-style: normal;
     font-weight: 700;
-    line-height: 106%;
+    line-height: 102%;
+    letter-spacing: 1px;
 }
 
 .about_content {
     display: flex;
     margin-left: 60px;
     margin-right: 60px;
+    margin-top: 2px;
     justify-content: space-between;
 }
 
@@ -195,7 +202,7 @@ body {
 .about_description_header h2 {
     position: absolute;
     display: flex;
-    width: 450px;
+    width: 423px;
     margin-top: 80px;
     flex-direction: column;
     flex-shrink: 0;
@@ -210,9 +217,9 @@ body {
 .about_description_header h2::after {
     position: absolute;
     content: '';
-    bottom: 1px;
+    bottom: 2px;
     right: 14px;
-    width: 379px;
+    width: 353px;
     height: 34px;
     transform: rotate(-1.693deg);
     flex-shrink: 0;
@@ -227,14 +234,14 @@ body {
 
 .about_description_vector_orange {
     position: absolute;
-    top: 267px;
+    top: 366px;
     left: -60px;
     z-index: 1;
 }
 
 .about_description_vector_violet {
     position: absolute;
-    top: 524px;
+    top: 623px;
     left: -60px;
     z-index: 2;
 }
@@ -249,7 +256,11 @@ body {
 .about_item {
     width: 320px;
     margin-right: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 73px;
+}
+
+.about_item_image {
+    margin-top: -2px;
 }
 
 .about_item_header {
@@ -258,6 +269,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 106%;
+    margin-top: 8px;
 }
 
 .about_item_description {
@@ -266,10 +278,12 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 120%;
+    margin-top: 20px;
+    width: 338px;
 }
 
 .wrapper_how_work {
-    height: 836px;
+    height: 798px;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
@@ -280,12 +294,12 @@ body {
     width: 308px;
     height: 623px;
     z-index: 20;
-    top: 106px;
+    top: 69px;
     left: calc(50% - 154px);
 }
 
 .running_text {
-    margin-top: 136px;
+    margin-top: 108px;
     font-size: 128px;
     font-style: normal;
     font-weight: 700;
@@ -386,12 +400,19 @@ body {
 
 .indicator_marks {
     display: flex;
-    margin: 40px 0;
-    justify-content: center;
+    margin: 41px 0;
 }
 
-.indicators_mark {
-    margin-right: 100px;
+.mark_increase {
+    margin-left: 350px;
+}
+
+.mark_sales {
+    margin-left: 97px;
+}
+
+.mark_customers {
+    margin-left: 42px;
 }
 
 .indicators_mark h1 {
@@ -433,7 +454,7 @@ body {
 }
 
 .why_description {
-    width: 750px;
+    width: 670px;
     margin-top: 20px;
     color: #FFF;
     text-align: center;
@@ -445,8 +466,8 @@ body {
 }
 
 .why_text_vector {
-    width: 446px;
-    height: 37px;
+    width: 386px;
+    height: 35px;
     margin-top: -38px;
     transform: rotate(-1.631deg);
     flex-shrink: 0;
@@ -459,7 +480,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 70px 70px 0;
+    margin: 72px 70px 0;
 }
 
 .why_block {
@@ -495,6 +516,7 @@ body {
 .customer_text{
     margin-top: 40px;
     margin-right: 40px;
+    margin-left: 71px;
 }
 
 .harness_text {
@@ -518,7 +540,7 @@ body {
 }
 
 .why_block_description  {
-    margin-top: 20px;
+    margin-top: 18px;
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -530,6 +552,7 @@ body {
     position: absolute;
     margin-top: 37px;
     padding: revert;
+    left: 14px;
     z-index: 2;
 }
 
@@ -547,14 +570,14 @@ body {
 
 .harness_violet {
     position: absolute;
-    top: 70px;
+    top: 80px;
     left: 459px;
 }
 
 .harness_orange {
     position: absolute;
     bottom: 0;
-    left: 420px;
+    left: 394px;
 }
 
 .harness_green {
@@ -570,7 +593,7 @@ body {
 
 .seasoned_image  {
     bottom: 0;
-    left: 500px;
+    left: 480px;
 }
 
 .supercharge_image {
@@ -578,6 +601,13 @@ body {
     right: 0;
 }
 
+.customer_text .why_block_description {
+    margin-right: 6px;
+}
+
+.supercharge_text .why_block_description {
+    margin-right: 110px;
+}
 
 .contacts {
     background-color: #F5F5F5;
@@ -605,6 +635,7 @@ body {
     font-weight: 700;
     line-height: 106%;
     margin-bottom: 40px;
+    letter-spacing: 1px;
 }
 
 .contacts_main {
@@ -613,14 +644,15 @@ body {
 }
 
 .contacts_tagline {
-    width: 844px;
+    width: 875px;
+    margin-left: 59px;
 }
 
 .contacts_social_network {
     width: 558px;
     display: flex;
-    padding-top: 45px;
-    padding-left: 45px;
+    padding-top: 44px;
+    padding-left: 33px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -660,12 +692,17 @@ body {
     border-radius: 50%;
 }
 
+.contacts_social_network div:nth-child(6),
+.contacts_social_network div:nth-child(8) {
+    margin-top: -22px;
+}
+
 .contacts_partners {
     display: flex;
     height: 60px;
-    margin: 100px 60px 0 60px;
+    align-items: center;
+    margin: 99px 60px 0 51px;
     flex-direction: row;
-    justify-content: center;
 }
 
 .contacts_partners_image {
@@ -681,7 +718,7 @@ body {
 }
 
 .footer_content hr {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 
@@ -706,7 +743,7 @@ body {
     font-weight: 300;
     line-height: 140%;
     text-decoration-line: underline;
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
 .footer_links a:last-child {
@@ -719,7 +756,7 @@ body {
 }
 
 .footer_logo {
-    margin-right: 126px;
+    margin-right: 140px;
 }
 
 .footer_nav_items {
@@ -745,6 +782,7 @@ body {
     margin-left: 40px;
     margin-right: -20px;
 }
+
 
 
 
