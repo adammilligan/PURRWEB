@@ -345,7 +345,7 @@
     }
 
     .customers_picture_vector {
-        idth: 227px;
+        width: 227px;
         height: 206px;
         transform: rotate(10.668deg);
     }
