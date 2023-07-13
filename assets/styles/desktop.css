@@ -90,6 +90,10 @@ body {
     margin-top: 1px;
 }
 
+.burger {
+    display: none;
+}
+
 .header_logo_text {
     color: #FFF;
     text-align: center;
@@ -719,6 +723,7 @@ body {
 
 .footer_content hr {
     margin-top: 25px;
+    background: #444;
 }
 
 
@@ -774,9 +779,16 @@ body {
     cursor: pointer;
 }
 
-.footer_nav_item:last-child {
+.footer_nav_item a:nth-child(2){
     margin-right: 0;
 }
+
+.footer_nav_item a:nth-child(3),
+.footer_nav_item a:nth-child(4),
+.footer_nav_item a:nth-child(5) {
+    display: none;
+}
+
 
 .socials_item {
     margin-left: 40px;
