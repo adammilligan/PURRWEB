@@ -494,9 +494,9 @@
         margin-top: 16px;
     }
 
-    .footer_nav_item a:nth-child(3),
-    .footer_nav_item a:nth-child(4),
-    .footer_nav_item a:nth-child(5) {
+    .footer_nav_items a:nth-child(3),
+    .footer_nav_items a:nth-child(4),
+    .footer_nav_items a:nth-child(5) {
         display: block;
     }
 
@@ -514,7 +514,7 @@
 
     .footer_content hr {
         margin-top: 36px;
-        border: 1.5px  solid #444444;
+        border: 1px  solid #444444;
     }
 
     .footer_copyright {
