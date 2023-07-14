@@ -262,10 +262,11 @@
         width: 343px;
         margin-right: 0;
         margin-bottom: 20px;
+        border-radius: 20px;
     }
 
     .why_blocks {
-        margin: 40px 0 0 0;
+        margin: 41px 0 0 0;
     }
 
     .why_block_header {
@@ -280,10 +281,11 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-top: 16px;
     }
 
     .why_block_customers {
-        height: 342px;
+        height: 362px;
     }
 
     .why_block_harness {
@@ -292,10 +294,12 @@
 
     .why_block_supercharge {
         height: 313px;
+        margin-top: 0;
     }
 
     .why_block_seasoned {
         height: 395px;
+        margin-top: 0;
     }
 
     .harness_text {
@@ -303,18 +307,19 @@
     }
 
     .harness_violet {
-        top: 153px;
-        left: 255px;
+        top: 201px;
+        height: 116px;
+        left: 282px;
     }
 
     .harness_orange {
-        top: 250px;
-        left: 6px;
+        top: 247px;
+        left: 135px;
     }
 
     .harness_green {
-        top: 270px;
-        left: 152px;
+        top: 269px;
+        left: 10px;
     }
 
     .supercharge_text {
@@ -322,7 +327,7 @@
     }
 
     .supercharge_image {
-        bottom: -114px;
+        bottom: -116px;
     }
 
     .seasoned_text {
@@ -330,24 +335,29 @@
     }
 
     .seasoned_image {
-        bottom: -400px;
-        left: 100px;
+        bottom: -416px;
+        left: 145px;
+        height: 206px;
     }
 
     .customer_text {
-        margin: 20px 20px 0 20px;
+        margin: 20px 19px 0 20px;
     }
 
     .customers_picture_img {
-        width: 107px;
+        width: 179px;
         height: 222px;
-        transform: rotate(-31.844deg);
+        transform: rotate(-14.844deg);
+        margin-top: 176px;
+        left: 36px;
     }
 
     .customers_picture_vector {
-        width: 227px;
-        height: 206px;
-        transform: rotate(10.668deg);
+        width: 192px;
+        height: 312px;
+        transform: rotate(-0.332deg);
+        left: -1px;
+        top: 151px;
     }
 
     .supercharge_text .why_block_description {
@@ -357,7 +367,7 @@
     .contacts_header {
         display: flex;
         text-align: center;
-        margin: 40px 16px 0 16px;
+        margin: 38px 16px 0 16px;
         padding-bottom: 40px;
     }
 
@@ -370,7 +380,7 @@
     }
 
     .contacts_header a {
-        width: 230px;
+        width: 243px;
     }
 
     .tagline_header {
@@ -380,31 +390,37 @@
         line-height: 106%;
     }
 
+    .contacts_wrapper {
+        height: 1047px;
+    }
+
     .contacts_main {
         display: block;
     }
 
     .contacts_tagline {
         width: auto;
-        margin: 40px 4px 0 16px;
+        margin: 40px 18px 0 16px;
     }
 
     .tagline_description {
         width: auto;
+        margin-top: 18px;
     }
 
     .contacts_social_network {
         padding-top: 0;
         padding-left: 0;
         margin-left: 16px;
-        margin-top: 20px;
+        margin-top: 21px;
         width: auto;
     }
 
     .contacts_social_network_item {
         width: 64px;
         height: 64px;
-        margin-right: 25px;
+        margin-right: 20px;
+        margin-left: 5px;
     }
 
     .network_facebook {
@@ -418,7 +434,7 @@
 
     .contacts_partners {
         flex-wrap: wrap;
-        margin: 50px 0 40px 20px;
+        margin: 90px 0 40px 20px;
     }
 
     .contacts_partners_image {
@@ -448,6 +464,14 @@
         height: auto;
     }
 
+    .footer_logo img {
+        height: 30px;
+    }
+
+    .footer_logo {
+        margin-top: -3px;
+    }
+
     .footer_content {
         display: block;
         margin: 20px 16px;
@@ -461,7 +485,8 @@
     .footer_nav_items {
         display: flex;
         flex-direction: column;
-        margin-right: 0;
+        margin-right: -4px;
+        margin-top: 19px;
         margin-bottom: 40px;
     }
 
@@ -476,14 +501,23 @@
     }
 
     .socials_item {
-        margin: 20px 0 0 0;
-    }
-
-    .socials_item:first-child {
-        margin-top: 40px;
+        margin: 40px 0 0 0;
     }
 
     .footer_links {
         display: none;
+    }
+
+    .socials_item_googleplay {
+        margin-top: 18px;
+    }
+
+    .footer_content hr {
+        margin-top: 36px;
+        border: 1.5px  solid #444444;
+    }
+
+    .footer_copyright {
+        margin-top: 11px;
     }
 }
