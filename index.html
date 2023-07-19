@@ -25,13 +25,13 @@
                     <p class="header_logo_text">budss</p>
                 </a>
                 <a href="/modal" class="burger"></a>
-                <a class="header_contact" href="/modal">Contact sales</a>
+                <div class="header_contact form_button" >Contact sales</div>
             </div>
             <section class="header_description">
                 <div class="header_description_text">
                     <h1>Everyone <br> is an Influencer</h1>
                     <p>Budss is a payments as a service and WOM engine dedicated to acquisition and retention of customers to your business.</p>
-                    <a class="header_contact header_description_contact" href="/modal">Contact sales</a>
+                    <div class="header_contact form_button header_description_contact">Contact sales</div>
                 </div>
                 <div class="header_description_image">
                     <img class="header_description_vector" src="./assets/images/header_description_vector.svg" alt="header_description_vector">
@@ -161,7 +161,7 @@
             <div class="wrapper contacts_wrapper">
                 <div class="contacts_header">
                     <h1 class="contacts_header_text">Let  Your Business Grow</h1>
-                    <a class="header_contact" href="/modal">Contact sales</a>
+                    <div class="header_contact form_button">Contact sales</div>
                 </div>
                 <div class="contacts_main">
                     <div class="contacts_tagline">
@@ -216,6 +216,48 @@
 
 
         </section>
+        <section class="modal_form">
+            <form action="/" method="POST" class="form hidden" id="form">
+                <div class="modal_form_wrapper">
+                    <div class="input_name_wrapper">
+                        <label for="name" class="modal_form_label">Name <span>*</span></label>
+                        <input type="text" id="name" required class="modal_form_input" name="name" value="" placeholder="Enter name">
+                        <p class="error hidden"></p>
+                    </div>
+                    <div class="input_mail_wrapper">
+                        <label for="mail" class="modal_form_label">Email <span>*</span></label>
+                        <input type="text" id="mail" required class="modal_form_input" name="mail" value="" placeholder="Enter email">
+                        <p class="error hidden">This field is required.</p>
+                    </div>
+                    <div class="input_phone_wrapper">
+                        <label for="phone" class="modal_form_label">Phone number <span>*</span></label>
+                        <input type="text" id="phone" required class="modal_form_input" name="phone" value="" placeholder="Enter phone number">
+                        <p class="error hidden">This field is required.</p>
+                    </div>
+                    <div class="input_company_wrapper">
+                        <label for="company" class="modal_form_label">Company</label>
+                        <input type="text" id="company" class="modal_form_input" name="company" value="" placeholder="Enter company">
+                    </div>
+                    <div class="input_website_wrapper">
+                        <label for="website" class="modal_form_label">Website/Store URL</label>
+                        <input type="text" id="website" class="modal_form_input" name="website" value="" placeholder="Enter Website/Store URL">
+                    </div>
+                    <p class="form_privacy">
+                        By submitting this form you are agreeing to Budss’s
+                        <a href="/privacy_policy">Privacy Policy</a>
+                        and <a href="/terms_of_use">Terms of Use</a> Terms of Use
+                    </p>
+                    <input
+                            type="submit"
+                            id="submit_button"
+                            value="Contact sales"
+                            class="header_contact form_contact disable"
+                            disabled
+                    >
+
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="wrapper footer_wrapper">
@@ -232,7 +274,7 @@
                         <a class="footer_nav_item">Terms Of Use - Seller</a>
                         <a class="footer_nav_item">Terms of Use - Sellers & Customers</a>
                     </div>
-                    <a class="header_contact" href="/modal">Contact sales</a>
+                    <div class="header_contact form_button">Contact sales</div>
                     <a class="socials_item socials_item_appstore" href="/appstore">
                         <img src="./assets/images/appstore.svg" alt="appstore_svg">
                     </a>
@@ -253,4 +295,6 @@
         </div>
     </footer>
 </body>
+<script src="./assets/scripts/render.js"></script>
+<script src="./assets/scripts/index.js"></script>
 </html>
