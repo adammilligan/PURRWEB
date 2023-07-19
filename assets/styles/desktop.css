@@ -799,7 +799,7 @@ body {
 
 .modal_form {
     position: fixed;
-    top: 50%;
+    top: 355px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 417px;
@@ -813,8 +813,17 @@ body {
 }
 
 .modal_form_wrapper {
+    position: relative;
     margin: 40px 40px;
 }
+
+.modal_close {
+    position: absolute;
+    top: -24px;
+    right: -24px;
+    cursor: pointer;
+}
+
 
 .modal_form_input {
     display: flex;
@@ -871,6 +880,7 @@ body {
     border: none;
     outline: none;
     padding: 16px 90px;
+    cursor: pointer;
 }
 
 .modal_form_input_error {

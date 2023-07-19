@@ -23,6 +23,7 @@ const elements = {
   websiteInput: document.querySelector('#website'),
   submit: document.querySelector('#submit_button'),
   formSubmit: document.querySelector('#form'),
+  modalClose: document.querySelector('.modal_close'),
 
 }
 
@@ -108,7 +109,17 @@ elements.websiteInput.addEventListener('change', (e) => {
 elements.formSubmit.addEventListener('submit', (e) => {
   e.preventDefault();
   elements.formSubmit.classList.add('hidden');
-  console.log(state.data);
+  state.data.name = '';
+  state.data.mail = '';
+  state.data.phone = '';
+  state.data.company = '';
+  state.data.website = '';
+  state.submit = false;
+  elements.nameInput.value = '';
+  elements.phoneInput.value = '';
+  elements.mailInput.value = '';
+  elements.companyInput.value = '';
+  elements.websiteInput.value = '';
 })
 
 const modalButtons = document.querySelectorAll('.form_button')
@@ -116,3 +127,7 @@ const modalButtons = document.querySelectorAll('.form_button')
 modalButtons.forEach((button) => button.addEventListener('click', () => {
   elements.formSubmit.classList.remove('hidden')
 }))
+
+elements.modalClose.addEventListener('click', () => {
+  elements.formSubmit.classList.add('hidden');
+})
